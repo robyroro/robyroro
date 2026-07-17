@@ -5,23 +5,24 @@
 <h1 align="center">Hi, I'm robyroro 👋</h1>
 
 <p align="center">
-  I build open-source research platforms and developer tools with a focus on evidence, privacy, and clean automation.
+  I build open-source security platforms, research tools, and developer automation with a focus on evidence, privacy, and dependable operator experiences.
 </p>
 
 <p align="center">
   <a href="https://github.com/robyroro?tab=repositories"><img src="https://img.shields.io/badge/Explore_my_projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore my GitHub projects" /></a>
 </p>
 
-## 🛠️ Languages and tools
+## 🛠️ Languages, frameworks, and tools
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,py,html,css,vue,git,github,docker,linux,postgres&perline=11" alt="TypeScript, JavaScript, Python, HTML, CSS, Vue, Git, GitHub, Docker, Linux, and PostgreSQL" />
+    <img src="https://skillicons.dev/icons?i=ts,js,py,go,html,css,react,nextjs,vue,git,github,docker,linux,postgres&perline=14" alt="TypeScript, JavaScript, Python, Go, HTML, CSS, React, Next.js, Vue, Git, GitHub, Docker, Linux, and PostgreSQL" />
   </a>
 </p>
 
 ## 🚀 Selected work
 
+- [MCP Sentinel](https://github.com/robyroro/mcp-sentinel) — an open-source security control plane and fail-closed policy gateway for Model Context Protocol deployments.
 - [RegistryMesh EU](https://github.com/robyroro/registrymesh-eu) — provenance-first, self-hosted EU public-business OSINT research.
 - [OpenLens](https://github.com/robyroro/openlens) — an evidence-first passive OSINT investigation workbench.
 - [ScriptDrift](https://github.com/robyroro/scriptdrift) — detects drift between package-manager commands in Markdown and `package.json` scripts.
@@ -40,9 +41,9 @@
 
 ## 🧑‍💻 About me
 
-I enjoy turning messy research and engineering problems into practical, inspectable tools. My recent work spans public-data research, passive OSINT, privacy-aware infrastructure, and small developer utilities that keep code and documentation aligned.
+I enjoy turning messy security, research, and engineering problems into practical, inspectable tools. My recent work spans MCP security, public-data research, passive OSINT, privacy-aware infrastructure, and developer utilities that keep code and documentation aligned.
 
-I'm especially interested in systems where trustworthy provenance, reproducibility, and a clean operator experience matter as much as the final result.
+I'm especially interested in systems where trustworthy provenance, reproducibility, strong security boundaries, and a clean operator experience matter as much as the final result.
 
 <p align="center">
   <a href="https://github.com/robyroro"><img src="https://img.shields.io/badge/Follow_@robyroro-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow robyroro on GitHub" /></a>
