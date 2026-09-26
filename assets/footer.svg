@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-labelledby="title">
+  <title id="title">Thanks for stopping by — let's build something great</title>
+
+  <style>
+    .wave { animation: wave 14s linear infinite; }
+    .wave.w2 { animation-duration: 10s; animation-direction: reverse; }
+    .wave.w3 { animation-duration: 18s; }
+    @keyframes wave {
+      from { transform: translateX(0); }
+      to { transform: translateX(-1200px); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <defs>
+    <clipPath id="card">
+      <rect y="-40" width="1200" height="210" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <!-- Each wave has a 600px period and moves 1200px per loop, so it tiles seamlessly -->
+    <path class="wave" fill="#2dd4bf" fill-opacity="0.35" d="M0 62 Q150 38 300 62 T600 62 T900 62 T1200 62 T1500 62 T1800 62 T2100 62 T2400 62 V170 H0 Z"/>
+    <path class="wave w2" fill="#38bdf8" fill-opacity="0.35" d="M0 78 Q150 100 300 78 T600 78 T900 78 T1200 78 T1500 78 T1800 78 T2100 78 T2400 78 V170 H0 Z"/>
+    <path class="wave w3" fill="#0a1726" d="M0 98 Q150 84 300 98 T600 98 T900 98 T1200 98 T1500 98 T1800 98 T2100 98 T2400 98 V170 H0 Z"/>
+
+    <g fill="#99f6e4">
+      <circle cx="240" cy="128" r="1.5"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="960" cy="124" r="1.5"><animate attributeName="opacity" values="0.9;0.1;0.9" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1080" cy="150" r="1.2"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.6s" begin="0.6s" repeatCount="indefinite"/></circle>
+      <circle cx="130" cy="152" r="1.2"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.8s" begin="1.1s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <text x="600" y="144" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3.5" xml:space="preserve">THANKS FOR STOPPING BY  <tspan fill="#5eead4">✦</tspan>  LET'S BUILD SOMETHING GREAT</text>
+  </g>
+</svg>
