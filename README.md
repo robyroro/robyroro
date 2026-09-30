@@ -7,7 +7,7 @@
 <h1 align="center">Robert Vind-Gardoș</h1>
 <p align="center">
   <b>Entrepreneur. Product builder. Open-source developer.</b><br />
-  CEO at <a href="https://recompensated.com">Recompensated</a> · Founder at <a href="https://stratagency.ro">STRAT Agency</a><br />
+  Co-founder and CEO at <a href="https://recompensated.com">Recompensated</a> · Co-founder at <a href="https://stratagency.ro">STRAT Agency</a><br />
   Based in Romania · Online as <a href="https://github.com/robyroro">@robyroro</a>
 </p>
 
@@ -46,14 +46,14 @@ The idea: keep work, personal accounts, and research in distinct contexts, with 
   <tr>
     <td width="50%" valign="top">
       <h3>Recompensated</h3>
-      <p><b>CEO · Product &amp; engineering</b></p>
+      <p><b>Co-founder and CEO · Product &amp; engineering</b></p>
       <p>A rewards platform connecting offers, surveys, cashback and referrals with real rewards.</p>
       <p>I work on the product, points economy, provider integrations, fraud prevention and the experience around earning and redeeming.</p>
       <p><a href="https://recompensated.com"><b>Visit Recompensated ↗</b></a></p>
     </td>
     <td width="50%" valign="top">
       <h3>STRAT Agency</h3>
-      <p><b>Founder · Strategy &amp; execution</b></p>
+      <p><b>Co-founder · Strategy &amp; execution</b></p>
       <p>A digital agency connecting marketing, design and technology.</p>
       <p>My work spans performance marketing, websites, SEO, creative direction, analytics and automation — from the first idea to the implementation.</p>
       <p><a href="https://stratagency.ro"><b>Explore STRAT ↗</b></a></p>
