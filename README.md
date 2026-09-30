@@ -1,127 +1,110 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Vind-Gardoș Robert — CEO @ Recompensated · Founder @ STRAT Agency" width="100%" />
-</p>
-
-<h1 align="center">Hi, I'm Vind-Gardoș Robert 👋</h1>
-
-<p align="center">
-  <b>CEO @ <a href="https://recompensated.com">Recompensated</a></b> &nbsp;·&nbsp; <b>Founder @ <a href="https://stratagency.ro">STRAT Agency</a></b>
-  <br />
-  I build rewards platforms, growth systems, and open-source security tools — with a focus on evidence, privacy, and dependable operator experiences.
-</p>
-
-<p align="center">
-  <a href="https://github.com/robyroro">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=2DD4BF&center=true&vCenter=true&width=640&lines=CEO+%40+Recompensated;Founder+%40+STRAT+Agency;Rewards+%C2%B7+Growth+%C2%B7+Security;Open-source+OSINT+%26+MCP+security+tools;Laravel+%C2%B7+Next.js+%C2%B7+TypeScript+%C2%B7+Go+%C2%B7+Python" alt="CEO @ Recompensated · Founder @ STRAT Agency · Open-source OSINT & MCP security tools" />
+  <a href="https://github.com/robyroro/project-ghost">
+    <img src="./assets/profile-signal.gif" width="100%" alt="Robert Vind-Gardoș — building Project Ghost. Animated identity signals surround a floating Ghost mark." />
   </a>
 </p>
 
+<h1 align="center">Robert Vind-Gardoș</h1>
 <p align="center">
-  <a href="https://recompensated.com"><img src="https://img.shields.io/badge/CEO-Recompensated-2DD4BF?style=for-the-badge&labelColor=07111F" alt="CEO at Recompensated" /></a>
-  <a href="https://stratagency.ro"><img src="https://img.shields.io/badge/Founder-STRAT_Agency-38BDF8?style=for-the-badge&labelColor=07111F" alt="Founder of STRAT Agency" /></a>
-  <img src="https://komarev.com/ghpvc/?username=robyroro&label=Profile%20views&color=a78bfa&style=for-the-badge" alt="Profile views" />
+  <b>Entrepreneur. Product builder. Open-source developer.</b><br />
+  CEO at <a href="https://recompensated.com">Recompensated</a> · Founder at <a href="https://stratagency.ro">STRAT Agency</a><br />
+  Based in Romania · Online as <a href="https://github.com/robyroro">@robyroro</a>
 </p>
 
-## 🧑‍💻 About me
+<p align="center">
+  <a href="https://github.com/robyroro/project-ghost"><b>Project Ghost</b></a> &nbsp;/&nbsp;
+  <a href="https://github.com/robyroro?tab=repositories">Repositories</a> &nbsp;/&nbsp;
+  <a href="https://stratagency.ro/ro/robert-vind-gardos">About Robert</a> &nbsp;/&nbsp;
+  <a href="https://stratagency.ro/ro/contact">Get in touch</a>
+</p>
 
-I'm Robert — an entrepreneur and full-stack builder based in Romania. I run two companies and ship open-source tools on the side, and I like staying hands-on across product, code, infrastructure, and growth.
+---
 
-I enjoy turning messy business, security, and engineering problems into practical, inspectable systems. Whether it's a points economy, a marketing funnel, or an OSINT pipeline, I care about the same things: trustworthy data, reproducible results, strong security boundaries, and a clean experience for the people who operate it.
+## 01 / Current focus — Project Ghost
 
-## 🏗️ What I'm building
+<a href="https://github.com/robyroro/project-ghost">
+  <img src="./assets/ghost-identities.gif" width="100%" alt="Project Ghost concept: separate Work, Personal and Research browsing identities, each with its own animated signal. Pre-alpha; this illustrates the planned direction, not the browser interface." />
+</a>
+
+**I'm building an open-source desktop browser on Chromium, with privacy by default and separate browsing identities as its core design goals.**
+
+The idea: keep work, personal accounts, and research in distinct contexts, with protections built into the browser and temporary sessions that can be discarded when you're done.
+
+**Status: pre-alpha, under active development.** Ghost is a working name. Development builds and early audit findings are documented; the planned privacy features are not all implemented, and this is not a public browser release. The animation above illustrates the design direction.
+
+| Foundation | Planned experience | First platform |
+| :--- | :--- | :--- |
+| Chromium + custom C++ integration | Separate identities, disposable sessions, built-in protections | Windows 11 x64 |
+
+**[Explore the repository →](https://github.com/robyroro/project-ghost)** &nbsp;·&nbsp; [Roadmap](https://github.com/robyroro/project-ghost/blob/main/docs/roadmap.md) &nbsp;·&nbsp; [Privacy model](https://github.com/robyroro/project-ghost/blob/main/docs/privacy-model.md) &nbsp;·&nbsp; [Architecture](https://github.com/robyroro/project-ghost/blob/main/docs/architecture.md)
+
+[Read the project story on STRAT ↗](https://stratagency.ro/en/insights/project-ghost)
+
+## 02 / Two sides of my work
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-
-### 💸 Recompensated
-**CEO** · [recompensated.com](https://recompensated.com)
-
-A rewards platform where people turn spare time into real rewards — offers, surveys, cashback, referrals, and games, paid out as gift cards, PayPal, or crypto.
-
-I lead product and engineering: the points economy, 20+ offerwall integrations, fraud prevention, and daily engagement loops like streaks, missions, and achievements.
-
-</td>
-    <td width="33%" valign="top">
-
-### 🎯 STRAT Agency
-**Founder** · [stratagency.ro](https://stratagency.ro)
-
-A digital agency that builds brands and digital experiences that grow — *strat cu strat*, layer by layer.
-
-Performance marketing, creative & content, web & e-commerce, SEO, automation & analytics, and research & strategy.
-
-</td>
-    <td width="33%" valign="top">
-
-### 🛡️ Open source
-**Builder** · [my repositories](https://github.com/robyroro?tab=repositories)
-
-Security platforms, passive OSINT research tools, and developer utilities that keep code and documentation aligned.
-
-Recent focus: MCP security, EU public-data research, privacy-preserving rewards, and drift detection.
-
-</td>
+    <td width="50%" valign="top">
+      <h3>Recompensated</h3>
+      <p><b>CEO · Product &amp; engineering</b></p>
+      <p>A rewards platform connecting offers, surveys, cashback and referrals with real rewards.</p>
+      <p>I work on the product, points economy, provider integrations, fraud prevention and the experience around earning and redeeming.</p>
+      <p><a href="https://recompensated.com"><b>Visit Recompensated ↗</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>STRAT Agency</h3>
+      <p><b>Founder · Strategy &amp; execution</b></p>
+      <p>A digital agency connecting marketing, design and technology.</p>
+      <p>My work spans performance marketing, websites, SEO, creative direction, analytics and automation — from the first idea to the implementation.</p>
+      <p><a href="https://stratagency.ro"><b>Explore STRAT ↗</b></a></p>
+    </td>
   </tr>
 </table>
 
-```ts
-const robert = {
-  name: "Vind-Gardoș Robert",
-  roles: ["CEO @ Recompensated", "Founder @ STRAT Agency"],
-  basedIn: "Romania",
-  building: ["rewards & ad-tech", "growth & performance marketing", "security & OSINT tooling"],
-  stack: {
-    backend: ["Laravel", "Node.js", "Go", "Python"],
-    frontend: ["Next.js", "React", "Vue", "TypeScript"],
-    infra: ["Docker", "Linux", "Cloudflare", "PostgreSQL", "MySQL"],
-  },
-  values: ["evidence first", "privacy by default", "dependable operator experience"],
-};
+## 03 / Open-source field notes
+
+I build tools for security, public-data research and the small engineering problems that keep coming back. I like systems where you can inspect the evidence, reproduce the result and understand the limits.
+
+| Project | The problem I'm working on |
+| :--- | :--- |
+| **[Project Ghost](https://github.com/robyroro/project-ghost)** | Privacy by default and separate browsing identities in a Chromium browser. **Current focus · pre-alpha.** |
+| [MCP Sentinel](https://github.com/robyroro/mcp-sentinel) | A security control plane and policy gateway for Model Context Protocol deployments |
+| [RegistryMesh EU](https://github.com/robyroro/registrymesh-eu) | Researching EU public-business data with traceable sources |
+| [OpenLens](https://github.com/robyroro/openlens) | A passive OSINT investigation workbench built around evidence |
+| [LibreReward Bridge](https://github.com/robyroro/libreward-bridge) | Single-use reward claims funded from GNU Taler, with lifecycle tracking and signed webhooks |
+| [ScriptDrift](https://github.com/robyroro/scriptdrift) | Catching differences between commands in documentation and package scripts |
+| [EnvDript](https://github.com/robyroro/envdript) | Catching differences between environment variables in code and `.env.example` |
+| [Meta Ads Portfolio Intelligence](https://github.com/robyroro/meta-ads-portfolio-intelligence) | Exploring advertising portfolio data through a dashboard with synthetic demo data |
+
+## 04 / My workbench
+
+```text
+CURRENT EXPLORATION   C++ · Chromium · browser privacy · Python build tooling
+APPLICATIONS         PHP / Laravel · TypeScript · Node.js · Go · Python
+INTERFACES           React · Next.js · Vue · HTML / CSS
+INFRASTRUCTURE       Linux · Docker · Cloudflare · PostgreSQL · MySQL
+BUSINESS             Product · performance marketing · SEO · analytics
 ```
 
-## 🛠️ Languages, frameworks, and tools
+**My approach:** build something useful, inspect how it behaves, document what holds up, and improve what doesn't.
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,py,go,php,laravel,html,css,react,nextjs,vue,nodejs,postgres,mysql,docker,linux,cloudflare,git,github&perline=10" alt="TypeScript, JavaScript, Python, Go, PHP, Laravel, HTML, CSS, React, Next.js, Vue, Node.js, PostgreSQL, MySQL, Docker, Linux, Cloudflare, Git, and GitHub" />
-  </a>
-</p>
-
-## 🚀 Selected open-source work
-
-| Project | What it does |
-| --- | --- |
-| 🛡️ [MCP Sentinel](https://github.com/robyroro/mcp-sentinel) | Security control plane and fail-closed policy gateway for Model Context Protocol deployments |
-| 🏛️ [RegistryMesh EU](https://github.com/robyroro/registrymesh-eu) | Provenance-first, self-hosted EU public-business OSINT research |
-| 🔎 [OpenLens](https://github.com/robyroro/openlens) | Evidence-first passive OSINT investigation workbench |
-| 🎁 [LibreReward Bridge](https://github.com/robyroro/libreward-bridge) | Privacy-preserving single-use reward claims funded from a GNU Taler wallet, with signed webhooks |
-| 📜 [ScriptDrift](https://github.com/robyroro/scriptdrift) | Detects drift between package-manager commands in Markdown and `package.json` scripts |
-| 🔐 [EnvDript](https://github.com/robyroro/envdript) | Detects drift between environment variables used in code and documented in `.env.example` |
-| 📊 [Meta Ads Portfolio Intelligence](https://github.com/robyroro/meta-ads-portfolio-intelligence) | Advertising portfolio intelligence dashboard with synthetic demo data |
-
-## 📈 GitHub activity
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=robyroro&hide_border=true&border_radius=16&background=07111F&stroke=1E3A4C&ring=2DD4BF&fire=38BDF8&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=5EEAD4&sideLabels=99F6E4&dates=94A3B8" alt="Vind-Gardoș Robert's GitHub contribution streak" />
-</p>
+## 05 / The contribution trail
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robyroro/robyroro/refs/heads/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/robyroro/robyroro/refs/heads/output/github-snake.svg" />
-  <img alt="Vind-Gardoș Robert's GitHub contribution snake" src="https://raw.githubusercontent.com/robyroro/robyroro/refs/heads/output/github-snake-dark.svg" />
+  <img width="100%" alt="Robert Vind-Gardoș's GitHub contributions, animated as a snake moving through the contribution grid." src="https://raw.githubusercontent.com/robyroro/robyroro/refs/heads/output/github-snake-dark.svg" />
 </picture>
 
-<!-- Reference requested by the profile owner: https://raw.githubusercontent.com/OfficialCodeVoyage/OfficialCodeVoyage/refs/heads/output/github-snake-dark.svg -->
-
-## 🤝 Let's connect
+---
 
 <p align="center">
-  <a href="https://recompensated.com"><img src="https://img.shields.io/badge/Recompensated-Earn_rewards-2DD4BF?style=for-the-badge&labelColor=07111F" alt="Visit Recompensated" /></a>
-  <a href="https://stratagency.ro"><img src="https://img.shields.io/badge/STRAT_Agency-Work_with_us-38BDF8?style=for-the-badge&labelColor=07111F" alt="Visit STRAT Agency" /></a>
-  <a href="https://github.com/robyroro"><img src="https://img.shields.io/badge/Follow_me-on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow Vind-Gardoș Robert on GitHub" /></a>
+  <b>Follow the build.</b><br />
+  <a href="https://github.com/robyroro/project-ghost">Project Ghost</a> &nbsp;·&nbsp;
+  <a href="https://stratagency.ro/ro/robert-vind-gardos">My story</a> &nbsp;·&nbsp;
+  <a href="https://stratagency.ro/ro/contact">Work with me</a>
 </p>
 
 <p align="center">
-  <img src="./assets/footer.svg" alt="Thanks for stopping by — let's build something great" width="100%" />
+  <img src="./assets/build-signature.svg" width="100%" alt="Robert Vind-Gardoș / robyroro — Build. Observe. Iterate." />
 </p>
