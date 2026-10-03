@@ -1,0 +1,48 @@
+"""Generate the small, self-contained light and dark profile signatures."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+THEMES = {
+    "light": {
+        "background": "#F5F2ED",
+        "ink": "#262B29",
+        "muted": "#656B65",
+        "line": "#8E9690",
+        "accent": "#9C6045",
+    },
+    "dark": {
+        "background": "#191D1B",
+        "ink": "#EEECE5",
+        "muted": "#A5ADA5",
+        "line": "#7D8A80",
+        "accent": "#D59A76",
+    },
+}
+
+TEMPLATE = '''<svg xmlns="http://www.w3.org/2000/svg" width="840" height="184" viewBox="0 0 840 184" role="img" aria-labelledby="title description">
+  <title id="title">Robert Vind-Gardoș</title>
+  <desc id="description">robyroro. A custom RV signature with a small copper stroke moving around the R.</desc>
+  <style>
+    .name {{ font: 500 50px "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -1.55px; }}
+    .handle {{ font: 17px "SFMono-Regular", Consolas, "Liberation Mono", monospace; letter-spacing: 0.1px; }}
+    .trace {{ animation: trace 10s linear infinite; }}
+    @keyframes trace {{ to {{ stroke-dashoffset: -100; }} }}
+    @media (prefers-reduced-motion: reduce) {{ .trace {{ animation: none; }} }}
+  </style>
+  <rect width="840" height="184" rx="10" fill="{background}"/>
+  <text class="handle" x="34" y="59" fill="{muted}">robyroro</text>
+  <text class="name" x="32" y="110" fill="{ink}">Robert Vind-Gardoș</text>
+  <path d="M34 137h32" fill="none" stroke="{accent}" stroke-width="2"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M622 132V52h35c17 0 28 8 28 22s-11 23-28 23h-35m35 0 30 35M687 52l38 80 38-80" stroke="{line}" stroke-width="1.6"/>
+    <path class="trace" d="M622 132V52h35c17 0 28 8 28 22s-11 23-28 23h-35" pathLength="100" stroke="{accent}" stroke-width="2.2" stroke-dasharray="16 84" stroke-dashoffset="0"/>
+  </g>
+</svg>
+'''
+
+for theme, colors in THEMES.items():
+    output = ROOT / "assets" / f"profile-header-{theme}.svg"
+    output.write_text(TEMPLATE.format(**colors), encoding="utf-8", newline="\n")
+    print(f"{output.name}: {output.stat().st_size} bytes")
